@@ -1,0 +1,1711 @@
+{
+  "users": [
+    {
+      "_id": "user_ramesh",
+      "name": "Ramesh Kumar",
+      "email": "ramesh@example.com",
+      "password": "$2b$10$ciIkjV7GISjikpONO96uE.l4yE77Xu.Mkju/FQ8ec6zRBNm2IxIXe",
+      "xp": 50,
+      "level": "Citizen",
+      "badges": [
+        {
+          "name": "First Report",
+          "icon": "📸",
+          "earnedAt": "2026-06-18T15:32:26.618Z"
+        }
+      ],
+      "issuesReported": 1,
+      "issuesVerified": 0,
+      "createdAt": "2026-06-28T15:32:26.618Z"
+    },
+    {
+      "_id": "user_priya",
+      "name": "Priya Patel",
+      "email": "priya@example.com",
+      "password": "$2b$10$ciIkjV7GISjikpONO96uE.l4yE77Xu.Mkju/FQ8ec6zRBNm2IxIXe",
+      "xp": 200,
+      "level": "Guardian",
+      "badges": [
+        {
+          "name": "First Report",
+          "icon": "📸",
+          "earnedAt": "2026-05-29T15:32:26.618Z"
+        },
+        {
+          "name": "Community Watcher",
+          "icon": "👁️",
+          "earnedAt": "2026-06-13T15:32:26.618Z"
+        }
+      ],
+      "issuesReported": 5,
+      "issuesVerified": 12,
+      "createdAt": "2026-06-28T15:32:26.618Z"
+    },
+    {
+      "_id": "user_vikram",
+      "name": "Vikram Singh",
+      "email": "vikram@example.com",
+      "password": "$2b$10$ciIkjV7GISjikpONO96uE.l4yE77Xu.Mkju/FQ8ec6zRBNm2IxIXe",
+      "xp": 600,
+      "level": "Champion",
+      "badges": [
+        {
+          "name": "First Report",
+          "icon": "📸",
+          "earnedAt": "2026-04-29T15:32:26.618Z"
+        },
+        {
+          "name": "Community Watcher",
+          "icon": "👁️",
+          "earnedAt": "2026-05-19T15:32:26.618Z"
+        }
+      ],
+      "issuesReported": 12,
+      "issuesVerified": 25,
+      "createdAt": "2026-06-28T15:32:26.618Z"
+    },
+    {
+      "_id": "user_ananya",
+      "name": "Ananya Iyer",
+      "email": "ananya@example.com",
+      "password": "$2b$10$ciIkjV7GISjikpONO96uE.l4yE77Xu.Mkju/FQ8ec6zRBNm2IxIXe",
+      "xp": 1100,
+      "level": "Legend",
+      "badges": [
+        {
+          "name": "First Report",
+          "icon": "📸",
+          "earnedAt": "2026-03-20T15:32:26.619Z"
+        },
+        {
+          "name": "Community Watcher",
+          "icon": "👁️",
+          "earnedAt": "2026-04-09T15:32:26.619Z"
+        },
+        {
+          "name": "Legend Citizen",
+          "icon": "👑",
+          "earnedAt": "2026-06-18T15:32:26.619Z"
+        }
+      ],
+      "issuesReported": 22,
+      "issuesVerified": 54,
+      "createdAt": "2026-06-28T15:32:26.619Z"
+    },
+    {
+      "_id": "user_kabir",
+      "name": "Kabir Mehta",
+      "email": "kabir@example.com",
+      "password": "$2b$10$ciIkjV7GISjikpONO96uE.l4yE77Xu.Mkju/FQ8ec6zRBNm2IxIXe",
+      "xp": 30,
+      "level": "Citizen",
+      "badges": [],
+      "issuesReported": 0,
+      "issuesVerified": 0,
+      "createdAt": "2026-06-28T15:32:26.619Z"
+    },
+    {
+      "_id": "f8gl8h5gd",
+      "name": "Yogesh sanjay pande",
+      "email": "yogeshpande4421@gmail.com",
+      "password": "$2b$10$2fugJjroZdUNdLuw/DOND.L7GfC4KDnH7LyuarSxwGmGJsAezw3cm",
+      "xp": 0,
+      "level": "Citizen",
+      "badges": [],
+      "issuesReported": 0,
+      "issuesVerified": 0,
+      "createdAt": "2026-06-28T16:04:03.335Z"
+    }
+  ],
+  "issues": [
+    {
+      "_id": "s21o6kvcb",
+      "title": "Deep pothole near Signal (93m near Main Road)",
+      "description": "There is a deep pothole right in the middle of the left lane. Two-wheelers are swerving dangerously to avoid it.",
+      "category": "Pothole",
+      "severity": "Medium",
+      "status": "Open",
+      "location": {
+        "lat": 19.0515122427085,
+        "lng": 72.8540534823719,
+        "address": "Deep pothole, near Colaba Causeway, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Pothole",
+        "severity": "Medium",
+        "description": "AI detected Pothole of Medium severity. Location details verified.",
+        "confidence": 93,
+        "tags": [
+          "pothole",
+          "medium",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_kabir",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya"
+      ],
+      "verifiedBy": [
+        "user_ramesh"
+      ],
+      "isVerified": false,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "n48tthkyl",
+          "userId": "user_ramesh",
+          "text": "The garbage truck didn't show up for three days here. It smells terrible!",
+          "createdAt": "2026-06-23T15:32:26.619Z"
+        },
+        {
+          "_id": "8995monj4",
+          "userId": "user_vikram",
+          "text": "This street light is off for a week now, making the alley extremely dark and unsafe.",
+          "createdAt": "2026-06-24T03:32:26.619Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-22T15:32:26.619Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-22T15:32:26.619Z",
+      "updatedAt": "2026-06-22T15:32:26.619Z"
+    },
+    {
+      "_id": "s1hgq9az2",
+      "title": "Entire street in complete darkness (52m near Main Road)",
+      "description": "There are about 5 consecutive street lights that are completely out, leaving the entire residential stretch in pitch black.",
+      "category": "Street Light",
+      "severity": "Medium",
+      "status": "In Progress",
+      "location": {
+        "lat": 19.100991455611364,
+        "lng": 72.87204544800056,
+        "address": "Entire street in complete darkness (52m, near Bandra West, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Street Light",
+        "severity": "Medium",
+        "description": "AI detected Street Light of Medium severity. Location details verified.",
+        "confidence": 81,
+        "tags": [
+          "street light",
+          "medium",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_ananya",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya"
+      ],
+      "verifiedBy": [
+        "user_ramesh"
+      ],
+      "isVerified": false,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "wqsw9cri6",
+          "userId": "user_ananya",
+          "text": "Reported this to the local ward office last week but no action was taken. Let's push this!",
+          "createdAt": "2026-06-23T15:32:26.620Z"
+        },
+        {
+          "_id": "cjl5lyd0s",
+          "userId": "user_kabir",
+          "text": "I live nearby and can confirm this is a safety hazard for kids and senior citizens.",
+          "createdAt": "2026-06-24T03:32:26.620Z"
+        },
+        {
+          "_id": "ty8de7598",
+          "userId": "user_ramesh",
+          "text": "I live nearby and can confirm this is a safety hazard for kids and senior citizens.",
+          "createdAt": "2026-06-24T15:32:26.620Z"
+        },
+        {
+          "_id": "7t9uokf04",
+          "userId": "user_ramesh",
+          "text": "This is causing major traffic delays during peak hours. Glad someone reported it!",
+          "createdAt": "2026-06-25T03:32:26.620Z"
+        },
+        {
+          "_id": "40u8ga3ao",
+          "userId": "user_kabir",
+          "text": "The water is getting wasted constantly. Very disappointing.",
+          "createdAt": "2026-06-25T15:32:26.620Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-27T15:32:26.620Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Ward officer assigned. Repair crew dispatched.",
+          "createdAt": "2026-06-28T15:32:26.620Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-27T15:32:26.620Z",
+      "updatedAt": "2026-06-27T15:32:26.620Z"
+    },
+    {
+      "_id": "64klgv29h",
+      "title": "Municipal water valve leaking heavily (26m near Main Road)",
+      "description": "The valve chamber is leaking, spraying water on the passersby. This has been happening for over 48 hours.",
+      "category": "Water Leakage",
+      "severity": "Medium",
+      "status": "Resolved",
+      "location": {
+        "lat": 19.067267227376913,
+        "lng": 72.8957299713163,
+        "address": "Municipal water valve leaking heavily (26m, near Andheri East, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Water Leakage",
+        "severity": "Medium",
+        "description": "AI detected Water Leakage of Medium severity. Location details verified.",
+        "confidence": 85,
+        "tags": [
+          "water leakage",
+          "medium",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_priya",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram",
+        "user_ananya",
+        "user_kabir"
+      ],
+      "verifiedBy": [
+        "user_ramesh",
+        "user_priya"
+      ],
+      "isVerified": true,
+      "isAnonymous": true,
+      "comments": [
+        {
+          "_id": "4l19w5hsj",
+          "userId": "user_ananya",
+          "text": "Excellent update, thank you for verifying the progress.",
+          "createdAt": "2026-06-23T15:32:26.620Z"
+        },
+        {
+          "_id": "p2domt774",
+          "userId": "user_vikram",
+          "text": "This is causing major traffic delays during peak hours. Glad someone reported it!",
+          "createdAt": "2026-06-24T03:32:26.620Z"
+        },
+        {
+          "_id": "wo3h32bs2",
+          "userId": "user_ramesh",
+          "text": "This is causing major traffic delays during peak hours. Glad someone reported it!",
+          "createdAt": "2026-06-24T15:32:26.620Z"
+        },
+        {
+          "_id": "exmojbnbo",
+          "userId": "user_kabir",
+          "text": "The water is getting wasted constantly. Very disappointing.",
+          "createdAt": "2026-06-25T03:32:26.620Z"
+        },
+        {
+          "_id": "sua46owwf",
+          "userId": "user_ramesh",
+          "text": "This is causing major traffic delays during peak hours. Glad someone reported it!",
+          "createdAt": "2026-06-25T15:32:26.620Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-20T15:32:26.620Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Ward officer assigned. Repair crew dispatched.",
+          "createdAt": "2026-06-21T15:32:26.620Z"
+        },
+        {
+          "status": "Resolved",
+          "note": "Issue fixed. Community verified and marked as resolved.",
+          "createdAt": "2026-08-07T15:32:26.620Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-20T15:32:26.620Z",
+      "updatedAt": "2026-06-20T15:32:26.620Z"
+    },
+    {
+      "_id": "m29h0lmly",
+      "title": "Plastic waste clogging storm water drain (86m near Main Road)",
+      "description": "The plastic wrappers, bottles, and bags have completely choked the drainage inlet, which will cause flooding during heavy rains.",
+      "category": "Garbage",
+      "severity": "Critical",
+      "status": "Open",
+      "location": {
+        "lat": 19.10287139888897,
+        "lng": 72.87535608728103,
+        "address": "Plastic waste clogging storm water drain (86m, near Lower Parel, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Garbage",
+        "severity": "Critical",
+        "description": "AI detected Garbage of Critical severity. Location details verified.",
+        "confidence": 83,
+        "tags": [
+          "garbage",
+          "critical",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Immediate hazard to commuters and public safety."
+      },
+      "reportedBy": "user_priya",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram",
+        "user_ananya",
+        "user_kabir",
+        "extra_voter1",
+        "extra_voter2"
+      ],
+      "verifiedBy": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram"
+      ],
+      "isVerified": true,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "ukuzd07bj",
+          "userId": "user_vikram",
+          "text": "Reported this to the local ward office last week but no action was taken. Let's push this!",
+          "createdAt": "2026-06-23T15:32:26.620Z"
+        },
+        {
+          "_id": "48dp9pirn",
+          "userId": "user_kabir",
+          "text": "This is causing major traffic delays during peak hours. Glad someone reported it!",
+          "createdAt": "2026-06-24T03:32:26.620Z"
+        },
+        {
+          "_id": "9hoepukg2",
+          "userId": "user_ramesh",
+          "text": "I live nearby and can confirm this is a safety hazard for kids and senior citizens.",
+          "createdAt": "2026-06-24T15:32:26.620Z"
+        },
+        {
+          "_id": "s4qcua80s",
+          "userId": "user_priya",
+          "text": "This street light is off for a week now, making the alley extremely dark and unsafe.",
+          "createdAt": "2026-06-25T03:32:26.620Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-18T15:32:26.621Z"
+        }
+      ],
+      "isEscalated": true,
+      "createdAt": "2026-06-18T15:32:26.621Z",
+      "updatedAt": "2026-06-18T15:32:26.621Z"
+    },
+    {
+      "_id": "i82g5qgq4",
+      "title": "Crumbling road edges after rainfall (95m near Main Road)",
+      "description": "The entire tar road is peeling off in sections, leaving loose gravel which makes the surface extremely slippery.",
+      "category": "Road Damage",
+      "severity": "High",
+      "status": "In Progress",
+      "location": {
+        "lat": 19.06749996477153,
+        "lng": 72.91015067532557,
+        "address": "Crumbling road edges after rainfall (95m, near Worli Sea Face, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Road Damage",
+        "severity": "High",
+        "description": "AI detected Road Damage of High severity. Location details verified.",
+        "confidence": 91,
+        "tags": [
+          "road damage",
+          "high",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_vikram",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram"
+      ],
+      "verifiedBy": [
+        "user_ramesh"
+      ],
+      "isVerified": false,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "eda01o9zh",
+          "userId": "user_ananya",
+          "text": "This street light is off for a week now, making the alley extremely dark and unsafe.",
+          "createdAt": "2026-06-23T15:32:26.621Z"
+        },
+        {
+          "_id": "jne48w78l",
+          "userId": "user_ramesh",
+          "text": "The water is getting wasted constantly. Very disappointing.",
+          "createdAt": "2026-06-24T03:32:26.621Z"
+        },
+        {
+          "_id": "5r1v8e6ev",
+          "userId": "user_priya",
+          "text": "The water is getting wasted constantly. Very disappointing.",
+          "createdAt": "2026-06-24T15:32:26.621Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-14T15:32:26.621Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Ward officer assigned. Repair crew dispatched.",
+          "createdAt": "2026-06-15T15:32:26.621Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-14T15:32:26.621Z",
+      "updatedAt": "2026-06-14T15:32:26.621Z"
+    },
+    {
+      "_id": "0dpu22qhi",
+      "title": "Shop hoardings extended onto the road (17m near Main Road)",
+      "description": "A commercial shop has extended its display counters and banners, covering more than half of the pedestrian zone.",
+      "category": "Encroachment",
+      "severity": "Low",
+      "status": "Resolved",
+      "location": {
+        "lat": 19.04535306278493,
+        "lng": 72.86192358368893,
+        "address": "Shop hoardings extended onto the road (17m, near Dharavi, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Encroachment",
+        "severity": "Low",
+        "description": "AI detected Encroachment of Low severity. Location details verified.",
+        "confidence": 90,
+        "tags": [
+          "encroachment",
+          "low",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_vikram",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram",
+        "user_ananya",
+        "user_kabir",
+        "extra_voter1",
+        "extra_voter2",
+        "extra_voter3"
+      ],
+      "verifiedBy": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram",
+        "user_ananya"
+      ],
+      "isVerified": true,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "7r4xwfa17",
+          "userId": "user_ramesh",
+          "text": "I live nearby and can confirm this is a safety hazard for kids and senior citizens.",
+          "createdAt": "2026-06-23T15:32:26.622Z"
+        },
+        {
+          "_id": "jre3xo52z",
+          "userId": "user_vikram",
+          "text": "I live nearby and can confirm this is a safety hazard for kids and senior citizens.",
+          "createdAt": "2026-06-24T03:32:26.622Z"
+        },
+        {
+          "_id": "4bnt4h46j",
+          "userId": "user_ananya",
+          "text": "Reported this to the local ward office last week but no action was taken. Let's push this!",
+          "createdAt": "2026-06-24T15:32:26.622Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-24T15:32:26.622Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Ward officer assigned. Repair crew dispatched.",
+          "createdAt": "2026-06-25T15:32:26.622Z"
+        },
+        {
+          "status": "Resolved",
+          "note": "Issue fixed. Community verified and marked as resolved.",
+          "createdAt": "2026-08-11T15:32:26.622Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-24T15:32:26.622Z",
+      "updatedAt": "2026-06-24T15:32:26.622Z"
+    },
+    {
+      "_id": "h9glcq19k",
+      "title": "High-decibel honking at crossroads (107m near Main Road)",
+      "description": "Vehicles are constantly honking in front of the hospital, even though it is clearly marked as a No-Honking Zone.",
+      "category": "Noise Pollution",
+      "severity": "High",
+      "status": "Open",
+      "location": {
+        "lat": 19.060404437777425,
+        "lng": 72.90102801462145,
+        "address": "High-decibel honking at crossroads (107m, near Juhu Beach, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Noise Pollution",
+        "severity": "High",
+        "description": "AI detected Noise Pollution of High severity. Location details verified.",
+        "confidence": 83,
+        "tags": [
+          "noise pollution",
+          "high",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_ramesh",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram",
+        "user_ananya",
+        "user_kabir",
+        "extra_voter1"
+      ],
+      "verifiedBy": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram"
+      ],
+      "isVerified": true,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "tqrhs0nvn",
+          "userId": "user_kabir",
+          "text": "I live nearby and can confirm this is a safety hazard for kids and senior citizens.",
+          "createdAt": "2026-06-23T15:32:26.622Z"
+        },
+        {
+          "_id": "oslh7wf7v",
+          "userId": "user_ananya",
+          "text": "Great initiative! Local communities must unite to highlight these problems.",
+          "createdAt": "2026-06-24T03:32:26.622Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-23T15:32:26.622Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-23T15:32:26.622Z",
+      "updatedAt": "2026-06-23T15:32:26.622Z"
+    },
+    {
+      "_id": "nfyb60jpd",
+      "title": "Overgrown tree branches touching power lines (90m near Main Road)",
+      "description": "Heavy tree branches have grown into the overhead power cables, causing frequent sparks and power fluctuations.",
+      "category": "Other",
+      "severity": "Critical",
+      "status": "In Progress",
+      "location": {
+        "lat": 19.11047975109391,
+        "lng": 72.89117218119802,
+        "address": "Overgrown tree branches touching power lines (90m, near Ghatkopar, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Other",
+        "severity": "Critical",
+        "description": "AI detected Other of Critical severity. Location details verified.",
+        "confidence": 75,
+        "tags": [
+          "other",
+          "critical",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Immediate hazard to commuters and public safety."
+      },
+      "reportedBy": "user_kabir",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram"
+      ],
+      "verifiedBy": [
+        "user_ramesh"
+      ],
+      "isVerified": false,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "gtr6lxjmv",
+          "userId": "user_ananya",
+          "text": "Great initiative! Local communities must unite to highlight these problems.",
+          "createdAt": "2026-06-23T15:32:26.623Z"
+        },
+        {
+          "_id": "ampki9vc8",
+          "userId": "user_vikram",
+          "text": "Excellent update, thank you for verifying the progress.",
+          "createdAt": "2026-06-24T03:32:26.623Z"
+        },
+        {
+          "_id": "595o70hf9",
+          "userId": "user_kabir",
+          "text": "I live nearby and can confirm this is a safety hazard for kids and senior citizens.",
+          "createdAt": "2026-06-24T15:32:26.623Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-24T15:32:26.623Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Ward officer assigned. Repair crew dispatched.",
+          "createdAt": "2026-06-25T15:32:26.623Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-24T15:32:26.623Z",
+      "updatedAt": "2026-06-24T15:32:26.623Z"
+    },
+    {
+      "_id": "emsc8n96e",
+      "title": "Deep pothole near Signal (14m near Main Road)",
+      "description": "There is a deep pothole right in the middle of the left lane. Two-wheelers are swerving dangerously to avoid it.",
+      "category": "Pothole",
+      "severity": "High",
+      "status": "Resolved",
+      "location": {
+        "lat": 19.061563246449875,
+        "lng": 72.91040958814463,
+        "address": "Deep pothole, near Chembur, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Pothole",
+        "severity": "High",
+        "description": "AI detected Pothole of High severity. Location details verified.",
+        "confidence": 76,
+        "tags": [
+          "pothole",
+          "high",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_priya",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram",
+        "user_ananya",
+        "user_kabir",
+        "extra_voter1",
+        "extra_voter2"
+      ],
+      "verifiedBy": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram"
+      ],
+      "isVerified": true,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "bqzwlp431",
+          "userId": "user_ananya",
+          "text": "Great initiative! Local communities must unite to highlight these problems.",
+          "createdAt": "2026-06-23T15:32:26.624Z"
+        },
+        {
+          "_id": "vmkirr36l",
+          "userId": "user_kabir",
+          "text": "This is causing major traffic delays during peak hours. Glad someone reported it!",
+          "createdAt": "2026-06-24T03:32:26.624Z"
+        },
+        {
+          "_id": "oczlw9kzd",
+          "userId": "user_priya",
+          "text": "Excellent update, thank you for verifying the progress.",
+          "createdAt": "2026-06-24T15:32:26.624Z"
+        },
+        {
+          "_id": "x4sb7qv2o",
+          "userId": "user_vikram",
+          "text": "Excellent update, thank you for verifying the progress.",
+          "createdAt": "2026-06-25T03:32:26.624Z"
+        },
+        {
+          "_id": "i07kbqfsh",
+          "userId": "user_vikram",
+          "text": "I almost tripped here yesterday evening. Hope this gets resolved soon.",
+          "createdAt": "2026-06-25T15:32:26.624Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-21T15:32:26.624Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Ward officer assigned. Repair crew dispatched.",
+          "createdAt": "2026-06-22T15:32:26.624Z"
+        },
+        {
+          "status": "Resolved",
+          "note": "Issue fixed. Community verified and marked as resolved.",
+          "createdAt": "2026-08-08T15:32:26.624Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-21T15:32:26.624Z",
+      "updatedAt": "2026-06-21T15:32:26.624Z"
+    },
+    {
+      "_id": "mr6hnkrxm",
+      "title": "Entire street in complete darkness (17m near Main Road)",
+      "description": "There are about 5 consecutive street lights that are completely out, leaving the entire residential stretch in pitch black.",
+      "category": "Street Light",
+      "severity": "Critical",
+      "status": "Open",
+      "location": {
+        "lat": 19.057432445639222,
+        "lng": 72.84167580320305,
+        "address": "Entire street in complete darkness (17m, near Borivali, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Street Light",
+        "severity": "Critical",
+        "description": "AI detected Street Light of Critical severity. Location details verified.",
+        "confidence": 76,
+        "tags": [
+          "street light",
+          "critical",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Immediate hazard to commuters and public safety."
+      },
+      "reportedBy": "user_vikram",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram",
+        "user_ananya",
+        "user_kabir",
+        "extra_voter1"
+      ],
+      "verifiedBy": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram"
+      ],
+      "isVerified": true,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "o3yewmey1",
+          "userId": "user_ramesh",
+          "text": "This is causing major traffic delays during peak hours. Glad someone reported it!",
+          "createdAt": "2026-06-23T15:32:26.624Z"
+        },
+        {
+          "_id": "an48br0f4",
+          "userId": "user_kabir",
+          "text": "Great initiative! Local communities must unite to highlight these problems.",
+          "createdAt": "2026-06-24T03:32:26.624Z"
+        },
+        {
+          "_id": "y1s42hop5",
+          "userId": "user_priya",
+          "text": "Reported this to the local ward office last week but no action was taken. Let's push this!",
+          "createdAt": "2026-06-24T15:32:26.624Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-14T15:32:26.624Z"
+        }
+      ],
+      "isEscalated": true,
+      "createdAt": "2026-06-14T15:32:26.624Z",
+      "updatedAt": "2026-06-14T15:32:26.624Z"
+    },
+    {
+      "_id": "b33dtmipi",
+      "title": "Municipal water valve leaking heavily (44m near Main Road)",
+      "description": "The valve chamber is leaking, spraying water on the passersby. This has been happening for over 48 hours.",
+      "category": "Water Leakage",
+      "severity": "Low",
+      "status": "In Progress",
+      "location": {
+        "lat": 19.10500255959149,
+        "lng": 72.84603858397371,
+        "address": "Municipal water valve leaking heavily (44m, near Colaba Causeway, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Water Leakage",
+        "severity": "Low",
+        "description": "AI detected Water Leakage of Low severity. Location details verified.",
+        "confidence": 76,
+        "tags": [
+          "water leakage",
+          "low",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_ramesh",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram",
+        "user_ananya",
+        "user_kabir",
+        "extra_voter1"
+      ],
+      "verifiedBy": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram"
+      ],
+      "isVerified": true,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "ewrk6ky5m",
+          "userId": "user_kabir",
+          "text": "I almost tripped here yesterday evening. Hope this gets resolved soon.",
+          "createdAt": "2026-06-23T15:32:26.625Z"
+        },
+        {
+          "_id": "299umb45b",
+          "userId": "user_ramesh",
+          "text": "This is causing major traffic delays during peak hours. Glad someone reported it!",
+          "createdAt": "2026-06-24T03:32:26.625Z"
+        },
+        {
+          "_id": "ne2t0fucs",
+          "userId": "user_priya",
+          "text": "The garbage truck didn't show up for three days here. It smells terrible!",
+          "createdAt": "2026-06-24T15:32:26.625Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-19T15:32:26.625Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Ward officer assigned. Repair crew dispatched.",
+          "createdAt": "2026-06-20T15:32:26.625Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-19T15:32:26.625Z",
+      "updatedAt": "2026-06-19T15:32:26.625Z"
+    },
+    {
+      "_id": "w767hmx8a",
+      "title": "Plastic waste clogging storm water drain (21m near Main Road)",
+      "description": "The plastic wrappers, bottles, and bags have completely choked the drainage inlet, which will cause flooding during heavy rains.",
+      "category": "Garbage",
+      "severity": "Critical",
+      "status": "Resolved",
+      "location": {
+        "lat": 19.068756244459767,
+        "lng": 72.84981329256492,
+        "address": "Plastic waste clogging storm water drain (21m, near Bandra West, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Garbage",
+        "severity": "Critical",
+        "description": "AI detected Garbage of Critical severity. Location details verified.",
+        "confidence": 79,
+        "tags": [
+          "garbage",
+          "critical",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Immediate hazard to commuters and public safety."
+      },
+      "reportedBy": "user_vikram",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram"
+      ],
+      "verifiedBy": [
+        "user_ramesh"
+      ],
+      "isVerified": false,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "8po571gax",
+          "userId": "user_ananya",
+          "text": "The garbage truck didn't show up for three days here. It smells terrible!",
+          "createdAt": "2026-06-23T15:32:26.626Z"
+        },
+        {
+          "_id": "y4a4b0evx",
+          "userId": "user_vikram",
+          "text": "I live nearby and can confirm this is a safety hazard for kids and senior citizens.",
+          "createdAt": "2026-06-24T03:32:26.626Z"
+        },
+        {
+          "_id": "uoid0o19y",
+          "userId": "user_ramesh",
+          "text": "This is causing major traffic delays during peak hours. Glad someone reported it!",
+          "createdAt": "2026-06-24T15:32:26.626Z"
+        },
+        {
+          "_id": "bhamnqw3n",
+          "userId": "user_kabir",
+          "text": "Excellent update, thank you for verifying the progress.",
+          "createdAt": "2026-06-25T03:32:26.626Z"
+        },
+        {
+          "_id": "m5dl5ttr4",
+          "userId": "user_priya",
+          "text": "The water is getting wasted constantly. Very disappointing.",
+          "createdAt": "2026-06-25T15:32:26.626Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-17T15:32:26.626Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Ward officer assigned. Repair crew dispatched.",
+          "createdAt": "2026-06-18T15:32:26.626Z"
+        },
+        {
+          "status": "Resolved",
+          "note": "Issue fixed. Community verified and marked as resolved.",
+          "createdAt": "2026-08-04T15:32:26.626Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-17T15:32:26.626Z",
+      "updatedAt": "2026-06-17T15:32:26.626Z"
+    },
+    {
+      "_id": "xrsiwy0du",
+      "title": "Crumbling road edges after rainfall (70m near Main Road)",
+      "description": "The entire tar road is peeling off in sections, leaving loose gravel which makes the surface extremely slippery.",
+      "category": "Road Damage",
+      "severity": "High",
+      "status": "Open",
+      "location": {
+        "lat": 19.086722108289404,
+        "lng": 72.91148091655242,
+        "address": "Crumbling road edges after rainfall (70m, near Andheri East, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Road Damage",
+        "severity": "High",
+        "description": "AI detected Road Damage of High severity. Location details verified.",
+        "confidence": 88,
+        "tags": [
+          "road damage",
+          "high",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_ananya",
+      "upvotes": [
+        "user_ramesh"
+      ],
+      "verifiedBy": [],
+      "isVerified": false,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "ufbv7zo0q",
+          "userId": "user_kabir",
+          "text": "I almost tripped here yesterday evening. Hope this gets resolved soon.",
+          "createdAt": "2026-06-23T15:32:26.627Z"
+        },
+        {
+          "_id": "q1u2x32x3",
+          "userId": "user_ramesh",
+          "text": "Reported this to the local ward office last week but no action was taken. Let's push this!",
+          "createdAt": "2026-06-24T03:32:26.627Z"
+        },
+        {
+          "_id": "atotjih1v",
+          "userId": "user_ananya",
+          "text": "Great initiative! Local communities must unite to highlight these problems.",
+          "createdAt": "2026-06-24T15:32:26.627Z"
+        },
+        {
+          "_id": "0xaixvl82",
+          "userId": "user_priya",
+          "text": "I almost tripped here yesterday evening. Hope this gets resolved soon.",
+          "createdAt": "2026-06-25T03:32:26.627Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-21T15:32:26.627Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-21T15:32:26.627Z",
+      "updatedAt": "2026-06-21T15:32:26.627Z"
+    },
+    {
+      "_id": "c6tmtkji2",
+      "title": "Shop hoardings extended onto the road (12m near Main Road)",
+      "description": "A commercial shop has extended its display counters and banners, covering more than half of the pedestrian zone.",
+      "category": "Encroachment",
+      "severity": "High",
+      "status": "In Progress",
+      "location": {
+        "lat": 19.09531970753735,
+        "lng": 72.84174387041347,
+        "address": "Shop hoardings extended onto the road (12m, near Lower Parel, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Encroachment",
+        "severity": "High",
+        "description": "AI detected Encroachment of High severity. Location details verified.",
+        "confidence": 79,
+        "tags": [
+          "encroachment",
+          "high",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_priya",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram",
+        "user_ananya",
+        "user_kabir"
+      ],
+      "verifiedBy": [
+        "user_ramesh",
+        "user_priya"
+      ],
+      "isVerified": true,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "vhbi7t344",
+          "userId": "user_ananya",
+          "text": "The garbage truck didn't show up for three days here. It smells terrible!",
+          "createdAt": "2026-06-23T15:32:26.627Z"
+        },
+        {
+          "_id": "mmg7caqp6",
+          "userId": "user_vikram",
+          "text": "This street light is off for a week now, making the alley extremely dark and unsafe.",
+          "createdAt": "2026-06-24T03:32:26.627Z"
+        },
+        {
+          "_id": "d98e6l30n",
+          "userId": "user_ramesh",
+          "text": "We need more upvotes on this so it gets escalated to the ward officer.",
+          "createdAt": "2026-06-24T15:32:26.627Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-26T15:32:26.627Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Ward officer assigned. Repair crew dispatched.",
+          "createdAt": "2026-06-27T15:32:26.627Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-26T15:32:26.627Z",
+      "updatedAt": "2026-06-26T15:32:26.627Z"
+    },
+    {
+      "_id": "bf00hdxhd",
+      "title": "High-decibel honking at crossroads (80m near Main Road)",
+      "description": "Vehicles are constantly honking in front of the hospital, even though it is clearly marked as a No-Honking Zone.",
+      "category": "Noise Pollution",
+      "severity": "Low",
+      "status": "Resolved",
+      "location": {
+        "lat": 19.07137649635227,
+        "lng": 72.8924467915718,
+        "address": "High-decibel honking at crossroads (80m, near Worli Sea Face, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Noise Pollution",
+        "severity": "Low",
+        "description": "AI detected Noise Pollution of Low severity. Location details verified.",
+        "confidence": 76,
+        "tags": [
+          "noise pollution",
+          "low",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_kabir",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram"
+      ],
+      "verifiedBy": [
+        "user_ramesh"
+      ],
+      "isVerified": false,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "vx9r7gpdi",
+          "userId": "user_priya",
+          "text": "This is causing major traffic delays during peak hours. Glad someone reported it!",
+          "createdAt": "2026-06-23T15:32:26.628Z"
+        },
+        {
+          "_id": "wz4fcdqs1",
+          "userId": "user_kabir",
+          "text": "The garbage truck didn't show up for three days here. It smells terrible!",
+          "createdAt": "2026-06-24T03:32:26.628Z"
+        },
+        {
+          "_id": "om5a02jkq",
+          "userId": "user_ramesh",
+          "text": "This is causing major traffic delays during peak hours. Glad someone reported it!",
+          "createdAt": "2026-06-24T15:32:26.628Z"
+        },
+        {
+          "_id": "lby60i7rr",
+          "userId": "user_ramesh",
+          "text": "Great initiative! Local communities must unite to highlight these problems.",
+          "createdAt": "2026-06-25T03:32:26.628Z"
+        },
+        {
+          "_id": "mzpibsqfh",
+          "userId": "user_ananya",
+          "text": "Great initiative! Local communities must unite to highlight these problems.",
+          "createdAt": "2026-06-25T15:32:26.628Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-21T15:32:26.628Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Ward officer assigned. Repair crew dispatched.",
+          "createdAt": "2026-06-22T15:32:26.628Z"
+        },
+        {
+          "status": "Resolved",
+          "note": "Issue fixed. Community verified and marked as resolved.",
+          "createdAt": "2026-08-08T15:32:26.628Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-21T15:32:26.628Z",
+      "updatedAt": "2026-06-21T15:32:26.628Z"
+    },
+    {
+      "_id": "xedp4hkrq",
+      "title": "Overgrown tree branches touching power lines (24m near Main Road)",
+      "description": "Heavy tree branches have grown into the overhead power cables, causing frequent sparks and power fluctuations.",
+      "category": "Other",
+      "severity": "Medium",
+      "status": "Open",
+      "location": {
+        "lat": 19.104572434908995,
+        "lng": 72.91341063474458,
+        "address": "Overgrown tree branches touching power lines (24m, near Dharavi, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Other",
+        "severity": "Medium",
+        "description": "AI detected Other of Medium severity. Location details verified.",
+        "confidence": 88,
+        "tags": [
+          "other",
+          "medium",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_priya",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram",
+        "user_ananya",
+        "user_kabir",
+        "extra_voter1",
+        "extra_voter2"
+      ],
+      "verifiedBy": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram"
+      ],
+      "isVerified": true,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "pftfsorim",
+          "userId": "user_ramesh",
+          "text": "Great initiative! Local communities must unite to highlight these problems.",
+          "createdAt": "2026-06-23T15:32:26.630Z"
+        },
+        {
+          "_id": "uq1ihla0k",
+          "userId": "user_priya",
+          "text": "This street light is off for a week now, making the alley extremely dark and unsafe.",
+          "createdAt": "2026-06-24T03:32:26.630Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-19T15:32:26.630Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-19T15:32:26.630Z",
+      "updatedAt": "2026-06-19T15:32:26.630Z"
+    },
+    {
+      "_id": "05ifm1bes",
+      "title": "Deep pothole near Signal (99m near Main Road)",
+      "description": "There is a deep pothole right in the middle of the left lane. Two-wheelers are swerving dangerously to avoid it.",
+      "category": "Pothole",
+      "severity": "Medium",
+      "status": "In Progress",
+      "location": {
+        "lat": 19.052213481752354,
+        "lng": 72.85944683406878,
+        "address": "Deep pothole, near Juhu Beach, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Pothole",
+        "severity": "Medium",
+        "description": "AI detected Pothole of Medium severity. Location details verified.",
+        "confidence": 87,
+        "tags": [
+          "pothole",
+          "medium",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_ananya",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram"
+      ],
+      "verifiedBy": [
+        "user_ramesh"
+      ],
+      "isVerified": false,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "c1qjxlmxa",
+          "userId": "user_priya",
+          "text": "I live nearby and can confirm this is a safety hazard for kids and senior citizens.",
+          "createdAt": "2026-06-23T15:32:26.631Z"
+        },
+        {
+          "_id": "03mdt0zvs",
+          "userId": "user_kabir",
+          "text": "I almost tripped here yesterday evening. Hope this gets resolved soon.",
+          "createdAt": "2026-06-24T03:32:26.631Z"
+        },
+        {
+          "_id": "ewor4j7f9",
+          "userId": "user_vikram",
+          "text": "Excellent update, thank you for verifying the progress.",
+          "createdAt": "2026-06-24T15:32:26.631Z"
+        },
+        {
+          "_id": "5mwf1t8c1",
+          "userId": "user_ramesh",
+          "text": "We need more upvotes on this so it gets escalated to the ward officer.",
+          "createdAt": "2026-06-25T03:32:26.631Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-19T15:32:26.631Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Ward officer assigned. Repair crew dispatched.",
+          "createdAt": "2026-06-20T15:32:26.631Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-19T15:32:26.631Z",
+      "updatedAt": "2026-06-19T15:32:26.631Z"
+    },
+    {
+      "_id": "tj9tuhkfb",
+      "title": "Entire street in complete darkness (17m near Main Road)",
+      "description": "There are about 5 consecutive street lights that are completely out, leaving the entire residential stretch in pitch black.",
+      "category": "Street Light",
+      "severity": "Medium",
+      "status": "Resolved",
+      "location": {
+        "lat": 19.068772872271904,
+        "lng": 72.91335147573281,
+        "address": "Entire street in complete darkness (17m, near Ghatkopar, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Street Light",
+        "severity": "Medium",
+        "description": "AI detected Street Light of Medium severity. Location details verified.",
+        "confidence": 80,
+        "tags": [
+          "street light",
+          "medium",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_ananya",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram",
+        "user_ananya",
+        "user_kabir",
+        "extra_voter1",
+        "extra_voter2",
+        "extra_voter3"
+      ],
+      "verifiedBy": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram",
+        "user_ananya"
+      ],
+      "isVerified": true,
+      "isAnonymous": true,
+      "comments": [
+        {
+          "_id": "cawb59p8w",
+          "userId": "user_priya",
+          "text": "We need more upvotes on this so it gets escalated to the ward officer.",
+          "createdAt": "2026-06-23T15:32:26.632Z"
+        },
+        {
+          "_id": "jrh4cd27e",
+          "userId": "user_vikram",
+          "text": "This street light is off for a week now, making the alley extremely dark and unsafe.",
+          "createdAt": "2026-06-24T03:32:26.632Z"
+        },
+        {
+          "_id": "rylia211s",
+          "userId": "user_kabir",
+          "text": "I live nearby and can confirm this is a safety hazard for kids and senior citizens.",
+          "createdAt": "2026-06-24T15:32:26.632Z"
+        },
+        {
+          "_id": "b7cupbufa",
+          "userId": "user_ananya",
+          "text": "Great initiative! Local communities must unite to highlight these problems.",
+          "createdAt": "2026-06-25T03:32:26.632Z"
+        },
+        {
+          "_id": "ixa9d1614",
+          "userId": "user_vikram",
+          "text": "This street light is off for a week now, making the alley extremely dark and unsafe.",
+          "createdAt": "2026-06-25T15:32:26.632Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-26T15:32:26.632Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Ward officer assigned. Repair crew dispatched.",
+          "createdAt": "2026-06-27T15:32:26.632Z"
+        },
+        {
+          "status": "Resolved",
+          "note": "Issue fixed. Community verified and marked as resolved.",
+          "createdAt": "2026-08-13T15:32:26.632Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-26T15:32:26.632Z",
+      "updatedAt": "2026-06-26T15:32:26.632Z"
+    },
+    {
+      "_id": "1g8ij9966",
+      "title": "Municipal water valve leaking heavily (97m near Main Road)",
+      "description": "The valve chamber is leaking, spraying water on the passersby. This has been happening for over 48 hours.",
+      "category": "Water Leakage",
+      "severity": "Medium",
+      "status": "Open",
+      "location": {
+        "lat": 19.041627817612895,
+        "lng": 72.85133286122213,
+        "address": "Municipal water valve leaking heavily (97m, near Chembur, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Water Leakage",
+        "severity": "Medium",
+        "description": "AI detected Water Leakage of Medium severity. Location details verified.",
+        "confidence": 90,
+        "tags": [
+          "water leakage",
+          "medium",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_ramesh",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya"
+      ],
+      "verifiedBy": [
+        "user_ramesh"
+      ],
+      "isVerified": false,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "wrsmlwmrk",
+          "userId": "user_priya",
+          "text": "Reported this to the local ward office last week but no action was taken. Let's push this!",
+          "createdAt": "2026-06-23T15:32:26.633Z"
+        },
+        {
+          "_id": "v3jsqkihu",
+          "userId": "user_kabir",
+          "text": "I live nearby and can confirm this is a safety hazard for kids and senior citizens.",
+          "createdAt": "2026-06-24T03:32:26.633Z"
+        },
+        {
+          "_id": "rvsro1z20",
+          "userId": "user_vikram",
+          "text": "Great initiative! Local communities must unite to highlight these problems.",
+          "createdAt": "2026-06-24T15:32:26.633Z"
+        },
+        {
+          "_id": "rid91y3oq",
+          "userId": "user_ananya",
+          "text": "The garbage truck didn't show up for three days here. It smells terrible!",
+          "createdAt": "2026-06-25T03:32:26.633Z"
+        },
+        {
+          "_id": "awol6za1c",
+          "userId": "user_vikram",
+          "text": "The water is getting wasted constantly. Very disappointing.",
+          "createdAt": "2026-06-25T15:32:26.633Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-17T15:32:26.633Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-17T15:32:26.633Z",
+      "updatedAt": "2026-06-17T15:32:26.633Z"
+    },
+    {
+      "_id": "9w8sczpt9",
+      "title": "Plastic waste clogging storm water drain (95m near Main Road)",
+      "description": "The plastic wrappers, bottles, and bags have completely choked the drainage inlet, which will cause flooding during heavy rains.",
+      "category": "Garbage",
+      "severity": "Medium",
+      "status": "Closed",
+      "location": {
+        "lat": 19.074310349910476,
+        "lng": 72.85573430704406,
+        "address": "Plastic waste clogging storm water drain (95m, near Borivali, Mumbai, Maharashtra, 400001"
+      },
+      "images": [],
+      "aiAnalysis": {
+        "category": "Garbage",
+        "severity": "Medium",
+        "description": "AI detected Garbage of Medium severity. Location details verified.",
+        "confidence": 93,
+        "tags": [
+          "garbage",
+          "medium",
+          "mumbai-civic",
+          "safety"
+        ],
+        "urgency_reason": "Requires municipal attention to prevent deterioration."
+      },
+      "reportedBy": "user_priya",
+      "upvotes": [
+        "user_ramesh",
+        "user_priya",
+        "user_vikram",
+        "user_ananya"
+      ],
+      "verifiedBy": [
+        "user_ramesh",
+        "user_priya"
+      ],
+      "isVerified": false,
+      "isAnonymous": false,
+      "comments": [
+        {
+          "_id": "25s4bzw2p",
+          "userId": "user_priya",
+          "text": "Excellent update, thank you for verifying the progress.",
+          "createdAt": "2026-06-23T15:32:26.634Z"
+        },
+        {
+          "_id": "ssjv8oivn",
+          "userId": "user_ramesh",
+          "text": "This street light is off for a week now, making the alley extremely dark and unsafe.",
+          "createdAt": "2026-06-24T03:32:26.634Z"
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "Open",
+          "note": "Issue reported by citizen via app.",
+          "createdAt": "2026-06-27T15:32:26.634Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Ward officer assigned. Repair crew dispatched.",
+          "createdAt": "2026-06-28T15:32:26.634Z"
+        },
+        {
+          "status": "Resolved",
+          "note": "Issue fixed. Community verified and marked as resolved.",
+          "createdAt": "2026-08-14T15:32:26.634Z"
+        }
+      ],
+      "isEscalated": false,
+      "createdAt": "2026-06-27T15:32:26.634Z",
+      "updatedAt": "2026-06-27T15:32:26.634Z"
+    }
+  ],
+  "notifications": []
+}

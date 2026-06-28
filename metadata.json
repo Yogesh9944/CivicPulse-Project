@@ -1,0 +1,6 @@
+{
+  "name": "CivicPulse – Community Hero",
+  "description": "A hyperlocal civic issue reporting and resolution platform powered by community engagement and AI insights.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
